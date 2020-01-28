@@ -1,1 +1,6 @@
-cifar-100-python*
+__pycache__
+*.sw*
+*.pyc
+.idea
+.vscode
+cifar-100-python
