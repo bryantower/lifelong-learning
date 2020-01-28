@@ -143,8 +143,8 @@ def estimate_posteriors(model, train, y, test, in_task=True, subsample=1, acorn=
 
 	return probs
 
-def predict(a):
-    return np.argmax(a, axis = 1)
+def predict(a, axis=1):
+    return np.argmax(a, axis=axis)
 
 def permutation(predict1, predict2, force=False):
     """
